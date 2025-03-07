@@ -1,0 +1,37 @@
+name: multitool_app
+description: Aplicación multi-herramientas con diversas funcionalidades
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  flutter_dotenv: ^5.0.2
+  carousel_slider: ^4.2.1
+  url_launcher: ^6.1.11
+  cached_network_image: ^3.2.3
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/my_photo.png
+    - .env
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
