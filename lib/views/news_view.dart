@@ -73,7 +73,7 @@ class _NewsViewState extends State<NewsView> {
       children: [
         Padding(
           padding: const EdgeInsets.all(16.0),
-          child: Image.asset('assets/wordpress_logo.png', height: 80),
+          child: Image.asset('assets/images/wordpress_logo.png', height: 80),
         ),
         Expanded(
           child: ListView.separated(
